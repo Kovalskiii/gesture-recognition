@@ -4,16 +4,20 @@ Prediction of gestures based by capturing of muscles contractions and ML
 Based on PyoMyo library.
 
 ## plot-emg-data-mat.py
+Capturing of RAW EMG data using myo armband and python matplotlib.
+Captured data are plotted in Matplotlib .  8 graphs are created - every graph for 1 armband sensor.
 <p align="center">
 <img src="https://media.giphy.com/media/M4q78uavYRvMCujwwf/giphy.gif" alt="Left to Right Wrist movements."/>
 </p>
-Capturing of RAW EMG data using myo armband and python matplotlib.
-Captured data are plotted in Matplotlib .  8 graphs are created - every graph for 1 armband sensor.
 
-<div style="width:100%;height:0;padding-bottom:83%;position:relative;"><iframe src="https://giphy.com/embed/M4q78uavYRvMCujwwf" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/M4q78uavYRvMCujwwf">via GIPHY</a></p>
+
 Capturing filtred EMG data using myo armband and python matplotlib.
 Captured data are plotted in Matplotlib .  8 graphs are created - every graph for 1 armband sensor.
 (Bandpass filter + rectified) (mode 0x01)
+<p align="center">
+<img src="https://media.giphy.com/media/M4q78uavYRvMCujwwf/giphy.gif" alt="Left to Right Wrist movements."/>
+</p>
+
 
 ## plot-emg-data-arr.py
 RAW EMG data (array on 8 values) 
@@ -26,6 +30,7 @@ Filtred EMG data(array on 8 values)(Bandpass filter + rectified) (mode 0x01)
 <p align="left">
 <img src="https://user-images.githubusercontent.com/49062638/140199268-85fbd995-0382-468f-b3e8-53aca5298c2e.png"/>
 </p>
+
 
 ## emg-data-classifier.py
 <p align="center">
