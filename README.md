@@ -33,9 +33,6 @@ Filtred EMG data(array of 8 values)(Bandpass filter + rectified) (mode 0x01)
 
 
 ## emg-data-classifier.py
-<p align="center">
-<img src="https://user-images.githubusercontent.com/49062638/140199707-048817b8-9bdd-4de5-bb9d-872aa89da0d0.png"/>
-</p>
 This script is dedicated to capture data from armband 
 and learn (improve model) in real time.
 
@@ -46,5 +43,9 @@ Labbeled data are stored as array.
 In order to delete all the data press E button on the keyboard.
 
 Press numbers from 0 to 9 to label data.
+<p align="left">
+<img src="https://user-images.githubusercontent.com/49062638/140199707-048817b8-9bdd-4de5-bb9d-872aa89da0d0.png"/>
+</p>
+
 
 
