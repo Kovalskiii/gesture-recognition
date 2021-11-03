@@ -1,6 +1,15 @@
+# #  _lucky duck_
+# #       __
+# #      /__\
+# #     >(' )
+# #       )/
+# #      /(
+# #     /  `----/
+# #     \  ~=- /
+# #   ~^~^~^~^~^~^~^
+
 '''
-Script is dedicated to plot EMG data in 2 different modes,
-change DRAW_LINES (True/False) to try each mode.
+This script is dedicated to plot EMG data.
 To exit - press Ctrl + C in the terminal.
 '''
 

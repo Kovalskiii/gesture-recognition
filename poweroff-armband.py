@@ -1,13 +1,23 @@
-import time
-from pyomyo import Myo, emg_mode
+# #  _lucky duck_
+# #       __
+# #      /__\
+# #     >(' )
+# #       )/
+# #      /(
+# #     /  `----/
+# #     \  ~=- /
+# #   ~^~^~^~^~^~^~^
 
 '''
-Script is dedicated to power off the Myo armband.
+This script is dedicated to power off the Myo armband.
 If armband is motionless for some time it goes into sleep mode and
 can be woken by shaking.
 Truly turn the armband OFF it is needed to esend a power off command as (m.power_off()).
 To turn armband ON we need to connect it to the power.
 '''
+
+import time
+from pyomyo import Myo, emg_mode
 
 # Make a Myo object
 m = Myo(mode=emg_mode.RAW)

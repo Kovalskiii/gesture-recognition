@@ -1,5 +1,3 @@
-# from pyomyo import Myo
-
 # #  _lucky duck_
 # #       __
 # #      /__\
@@ -10,17 +8,10 @@
 # #     \  ~=- /
 # #   ~^~^~^~^~^~^~^
 
-# def main():
-#     m = Myo()
-#     m.connect()
-#     m.vibrate(2)
-
-#     def handle_emg(emg, movement):
-#         print(emg)
-
-#     m.add_emg_handler(handle_emg)
-
-# main()
+'''
+This script is dedicated to plot in the terminal live EMG data (array on 8 values).
+To exit - press Ctrl + C in the terminal.
+'''
 
 import multiprocessing
 from pyomyo import Myo, emg_mode
@@ -29,7 +20,7 @@ from pyomyo import Myo, emg_mode
 q = multiprocessing.Queue()
 
 def worker(q):
-	m = Myo(mode=emg_mode.RAW)
+	m = Myo(mode=emg_mode.PREPROCESSED)
 	m.connect()
 	
 	def add_to_queue(emg, movement):
@@ -44,7 +35,7 @@ def worker(q):
 
 	# Orange logo and bar LEDs
 	m.set_leds([128, 0, 0], [128, 0, 0])
-	# Vibrate to know we connected okay
+	# Vibrate on success connection
 	m.vibrate(1)
 	
 	"""worker function"""
