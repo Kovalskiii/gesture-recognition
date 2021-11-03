@@ -5,7 +5,7 @@ Based on PyoMyo library.
 
 ## plot-emg-data-mat.py
 <p align="center">
-<img src="https://giphy.com/embed/M4q78uavYRvMCujwwf" alt="Left to Right Wrist movements."/>
+<img src="https://media.giphy.com/media/M4q78uavYRvMCujwwf/source.mov" alt="Left to Right Wrist movements."/>
 </p>
 Capturing of RAW EMG data using myo armband and python matplotlib.
 Captured data are plotted in Matplotlib .  8 graphs are created - every graph for 1 armband sensor.
