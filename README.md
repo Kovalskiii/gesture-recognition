@@ -11,11 +11,12 @@ Captured data are plotted in Matplotlib .  8 graphs are created - every graph fo
 </p>
 
 
+
 Capturing filtred EMG data using myo armband and python matplotlib.
 Captured data are plotted in Matplotlib .  8 graphs are created - every graph for 1 armband sensor.
 (Bandpass filter + rectified) (mode 0x01)
 <p align="center">
-<img src="https://media.giphy.com/media/M4q78uavYRvMCujwwf/giphy.gif" alt="Left to Right Wrist movements."/>
+<img src="https://media.giphy.com/media/qjhIhmUNO2JbnqoSU5/giphy.gif" alt="Left to Right Wrist movements."/>
 </p>
 
 
