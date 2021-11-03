@@ -14,16 +14,16 @@ Captured data are plotted in Matplotlib .  8 graphs are created - every graph fo
 (Bandpass filter + rectified) (mode 0x01)
 
 ### plot-emg-data-arr.py
-<p align="center">
-RAW EMG data (array on 8 values) <img src="https://user-images.githubusercontent.com/49062638/140205893-b74ea059-c285-4f72-9635-e165c32f0d19.png"/>
+RAW EMG data (array on 8 values) 
+<p align="left">
+<img src="https://user-images.githubusercontent.com/49062638/140205893-b74ea059-c285-4f72-9635-e165c32f0d19.png"/>
 </p>
 
 
-<p align="center">
-Filtred EMG data(array on 8 values) 
-(Bandpass filter + rectified) (mode 0x01)<img src="https://user-images.githubusercontent.com/49062638/140199268-85fbd995-0382-468f-b3e8-53aca5298c2e.png"/>
+Filtred EMG data(array on 8 values)(Bandpass filter + rectified) 
+<p align="left">
+(mode 0x01)<img src="https://user-images.githubusercontent.com/49062638/140199268-85fbd995-0382-468f-b3e8-53aca5298c2e.png"/>
 </p>
-
 
 ### emg-data-classifier.py
 <p align="center">
