@@ -1,5 +1,5 @@
 # gesture-recognition
-Prediction of gestures based by capturing of muscles contractions and ML
+Prediction of gestures based on capturing of muscles contractions and ML
 
 Based on PyoMyo library.
 
