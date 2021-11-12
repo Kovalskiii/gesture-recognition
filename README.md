@@ -48,5 +48,7 @@ Press numbers from 0 to 9 to label data.
 <img src="https://user-images.githubusercontent.com/49062638/140199707-048817b8-9bdd-4de5-bb9d-872aa89da0d0.png"/>
 </p>
 
+https://youtu.be/xZ1mQtPdz5I
+
 
 
