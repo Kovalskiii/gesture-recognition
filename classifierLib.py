@@ -20,9 +20,6 @@ Ctrl + C in the terminal - To exit.
 
 from collections import Counter, deque
 import struct
-import sys
-import time
-
 import pygame
 from pygame.locals import *
 import numpy as np
