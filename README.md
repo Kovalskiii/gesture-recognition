@@ -51,13 +51,20 @@ Press numbers from 0 to 9 to label data.
 https://youtu.be/xZ1mQtPdz5I
 
 
-## emg-data-classifier-anim.py
+## emg-data-classifier-anim2.py
 This script is dedicated to capture data from armband, learn (improve model) in real time and show real-time hand animation.
-(first start emg-data-classifier-anim.py then in the project folder find folder HandAnim, open Hand.exe)
-It is using k-nearest neighbors algorithm.
+
+(Start emg-data-classifier-anim.py, then in the project folder find folder HandAnim and run Hand.exe) (In hand animation was used Godot Engine)
+Script is using k-nearest neighbors algorithm.
 
 Labbeled data are stored as array.
 
 In order to delete all the data press E button on the keyboard.
 
 Press numbers from 0 to 9 to label data.
+
+<p align="left">
+<img src="https://user-images.githubusercontent.com/49062638/144508692-b1705fd8-9d9c-401e-8d75-0a00d9ef849e.png"/>
+</p>
+
+
