@@ -129,9 +129,11 @@ if __name__ == '__main__':
 			scr.fill((0, 0, 0), (0, 0, w, h))
 			#print(m.history_cnt)
 			total = sum(m.history_cnt.values(), 0.0)
-			fingers = [ m.history_cnt[i] / total for i in range(1, 6)]
+			fingers = [ m.history_cnt[i] / total for i in range(1, 7)]
 			#print(f"{fingers=}")
-			godot.update_pose(fingers)
+			[*fs, fist] = fingers
+			fs = [max(x, fist) for x in fs]
+			godot.update_pose(fs)
 			q.put(fingers)
 
 			for i in range(10):
